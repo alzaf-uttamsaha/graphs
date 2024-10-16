@@ -18,11 +18,13 @@ ChartJS.register(
 const DonutChart = () => {
     const data = {
         datasets: [{
-            data: [60, 40, 20],
+            data: [60, 40, 20, 10, 30],
             backgroundColor: [
-                'rgb(255, 99, 132)',
-                'rgb(54, 162, 235)',
-                'black'
+                '#BD80FF',
+                '#2B4DED',
+                '#FFA93A',
+                '#0496FF',
+                '#34D1BF',
             ],
             borderWidth: 0, // Removes space between items
         }]
